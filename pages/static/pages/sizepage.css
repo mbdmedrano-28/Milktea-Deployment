@@ -1,0 +1,214 @@
+.board {
+    position: absolute;
+    width: 1191px;
+    height: 848px;
+    left: 124px;
+    top: 120px;
+    background: #FFFFFF;
+    box-shadow: -5px 11px 4px #8CD3F7, inset 11px -11px 3px -1px #C8EAFB;
+    border-radius: 85px;
+}
+
+.choose {
+    position: absolute;
+    width: 770px;
+    height: 81px;
+    left: 211px;
+    top: 75px;
+    font-family: a Big Deal, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 77px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #5FD9F4;
+}
+
+.medium {
+    position: absolute;
+    left: 191px;
+    top: 273px;
+}
+
+.large {
+    position: absolute;
+    left: 708px;
+    top: 238px;
+}
+
+.medium_logo {
+    position: absolute;
+    left: 282px;
+    top: 382px;
+}
+
+.large_logo {
+    position: absolute;
+    left: 796px;
+    top: 352px;
+}
+
+.mediumButton {
+    position: absolute;
+    width: 313px;
+    height: 85px;
+    left: 171px;
+    top: 568px;
+    border: 5px solid #63ACD6;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+.mediumText {
+    position: absolute;
+    width: 135px;
+    height: 38px;
+    left: 89px;
+    top: 9px;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #0078BC;
+}
+
+.mediumPrice {
+    position: absolute;
+    width: 96px;
+    height: 28px;
+    left: 109px;
+    top: 47px;
+    font-family: Comic Sans MS, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0078BC;
+}
+
+.largeButton {
+    position: absolute;
+    width: 313px;
+    height: 85px;
+    left: 707px;
+    top: 568px;
+    border: 5px solid #63ACD6;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.largeText {
+    position: absolute;
+    width: 93px;
+    height: 38px;
+    left: 110px;
+    top: 9px;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #0078BC;
+}
+
+.largePrice {
+    position: absolute;
+    width: 96px;
+    height: 28px;
+    left: 109px;
+    top: 47px;
+    font-family: Comic Sans MS, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0078BC;
+}
+
+input[type=number] {
+    position: absolute;
+    width: 212px;
+    height: 44px;
+    left: 490px;
+    top: 724px;
+    border: 3px solid #004267;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+::placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #BEBEBE;
+}
+
+input[type=submit] {
+    position: absolute;
+    width: 181px;
+    height: 39px;
+    left: 505px;
+    top: 782px;
+    background: #0078BC;
+    border: 3px solid #036BA6;
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.backButton {
+    position: absolute;
+    width: 102px;
+    height: 39px;
+    left: 57px;
+    top: 782px;
+    background: #37B7FF;
+    border: 3px solid #00A3FE;
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+input[type=radio]{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 8px;
+    left: 15px;
+}

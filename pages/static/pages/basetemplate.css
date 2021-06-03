@@ -1,0 +1,147 @@
+:root{
+    --background_color_one: #ffffff;
+    --background_color_two: #D1F5FA;
+}
+
+html, body {
+    height: 95%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background_color_two);
+}
+
+.wrapper{
+    position: relative;
+    background-color: var(--background_color_two);
+    min-height: 1030px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+.navibar{
+    position: relative;
+    width: 1440px;
+    height: 71px;
+    left: 0;
+    top: 0;
+    background: #69CCFD;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0 5px 9px -18px #FFFFFF;
+}
+
+.pengu_logo{
+    position: absolute;
+    left: 15px;
+    top: -3px;
+}
+
+.home{
+    position: absolute;
+    left: 154px;
+    top: 23px;
+    font-family: Inria Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;border: none;
+    background-color: #69CCFD;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu{
+    position: absolute;
+    left: 273px;
+    top: 23px;
+    font-family: Inria Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;border: none;
+    background-color: #69CCFD;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.myCart{
+    position: absolute;
+    left: 390px;
+    top: 23px;
+    font-family: Inria Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;border: none;
+    background-color: #69CCFD;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.myOrder{
+    position: absolute;
+    left: 524px;
+    top: 23px;
+    font-family: Inria Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;border: none;
+    background-color: #69CCFD;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.myAccount{
+    position: absolute;
+    right: 167px;
+    top: 23px;
+    font-family: Inria Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;border: none;
+    background-color: #69CCFD;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.signOut{
+    position: absolute;
+    left: 1312px;
+    top: 23px;
+    font-family: Inria Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;border: none;
+    background-color: #69CCFD;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+p1{
+    position: absolute;
+    width: 7px;
+    height: 24px;
+    left: 1300px;
+    top: 23px;
+    font-family: Inria Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+}

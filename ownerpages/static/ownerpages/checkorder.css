@@ -1,0 +1,363 @@
+.line {
+    position: absolute;
+    width: 633px;
+    height: 0;
+    left: 150px;
+    top: 503px;
+    opacity: 0.4;
+    border: 3px solid #00A3FF;
+    transform: rotate(-90deg);
+}
+
+.mainB {
+    position: absolute;
+    width: 852px;
+    height: 1746px;
+    left: 532px;
+    top: 52px;
+    background: #FFFFFF;
+    box-shadow: -5px 11px 4px #8CD3F7, inset 11px -11px 3px -1px #C8EAFB;
+    border-radius: 85px;
+}
+
+.quantity {
+    position: absolute;
+    width: 86px;
+    height: 21px;
+    left: 102px;
+    top: 63px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.name {
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 120px;
+    top: 138px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.flavor {
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 308px;
+    top: 63px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.address {
+    position: absolute;
+    width: 78px;
+    height: 21px;
+    left: 302px;
+    top: 138px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.size {
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    left: 494px;
+    top: 63px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price {
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 488px;
+    top: 138px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.status {
+    position: absolute;
+    width: 65px;
+    height: 21px;
+    left: 633px;
+    top: 104px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.headerLine {
+    position: absolute;
+    width: 694px;
+    height: 0;
+    left: 76px;
+    top: 195px;
+    opacity: 0.4;
+    border: 3px solid #0078BC;
+}
+
+.order1 {
+    position: absolute;
+    width: 751px;
+    height: 263px;
+    left: 54px;
+    top: 228px;
+    background: #63ACD6;
+}
+
+.order2 {
+    position: absolute;
+    width: 751px;
+    height: 263px;
+    left: 54px;
+    top: 524px;
+    background: #63ACD6;
+}
+
+.order3 {
+    position: absolute;
+    width: 751px;
+    height: 263px;
+    left: 54px;
+    top: 820px;
+    background: #63ACD6;
+}
+
+.order4 {
+    position: absolute;
+    width: 751px;
+    height: 263px;
+    left: 54px;
+    top: 1116px;
+    background: #63ACD6;
+}
+
+.order5 {
+    position: absolute;
+    width: 751px;
+    height: 263px;
+    left: 54px;
+    top: 1412px;
+    background: #63ACD6;
+}
+
+.quantityValue {
+    position: absolute;
+    width: 51px;
+    height: 26px;
+    left: 66px;
+    top: 21px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.nameValue {
+    position: absolute;
+    width: 149px;
+    height: 52px;
+    left: 16px;
+    top: 97px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.flavorValue {
+    position: absolute;
+    width: 231px;
+    height: 61px;
+    left: 165px;
+    top: 21px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.addressValue {
+    position: absolute;
+    width: 202px;
+    height: 86px;
+    left: 180px;
+    top: 100px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.sizeValue {
+    position: absolute;
+    width: 98px;
+    height: 26px;
+    left: 410px;
+    top: 21px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.modeValue {
+    position: absolute;
+    width: 76px;
+    height: 26px;
+    left: 421px;
+    top: 100px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+input[type=text] {
+    position: absolute;
+    width: 142px;
+    height: 42px;
+    left: 541px;
+    top: 16px;
+    background: #FFFFFF;
+    border: 3px solid #0078BC;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.saveButton {
+    position: absolute;
+    width: 84px;
+    height: 41px;
+    left: 570px;
+    top: 73px;
+    background: #8CD3F7;
+    box-shadow: -5px 6px 4px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.completedButton {
+    position: absolute;
+    width: 127px;
+    height: 36px;
+    left: 332px;
+    top: 207px;
+    background: #37B7FF;
+    border: 3px solid #00A3FE;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #BEBEBE;
+}
+
+p4{
+    position: absolute;
+    height: 16px;
+    top: 20px;
+    left: 825px;
+    font-family: Consolas, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 16px;
+    text-align: center;
+    color: #FF0000;
+    align-self: center;
+}

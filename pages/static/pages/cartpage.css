@@ -1,0 +1,282 @@
+.pengu {
+    position: absolute;
+    left: 447px;
+    top: 113px;
+    filter: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.inverted_pengu {
+    position: absolute;
+    left: 908px;
+    top: 113px;
+    filter: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.cart {
+    position: absolute;
+    width: 508px;
+    height: 86px;
+    left: 473px;
+    top: 115px;
+    font-family: a Big Deal, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 69px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #5FD9F4;
+}
+
+.board {
+    position: absolute;
+    width: 1188px;
+    height: 543px;
+    left: 126px;
+    top: 233px;
+    background: #FFFFFF;
+    box-shadow: -5px 11px 4px #8CD3F7, inset 11px -11px 3px -1px #C8EAFB;
+    border-radius: 85px;
+}
+
+.quantity {
+    position: absolute;
+    width: 86px;
+    height: 21px;
+    left: 207px;
+    top: 49px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.flavor {
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 452px;
+    top: 49px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.size {
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    left: 717.5px;
+    top: 49px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price {
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 967.5px;
+    top: 49px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line {
+    position: absolute;
+    width: 998px;
+    height: 0;
+    left: 99px;
+    top: 81px;
+    mix-blend-mode: normal;
+    border: 3px solid #0078BC;
+}
+
+.quantityValue {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 138px;
+    top: 30px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.flavorValue {
+    position: absolute;
+    width: 297px;
+    height: 35px;
+    left: 244px;
+    top: 30px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.sizeValue {
+    position: absolute;
+    width: 81px;
+    height: 26px;
+    left: 614px;
+    top: 30px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.priceValue {
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    left: 846px;
+    top: 30px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.removeButton {
+    position: absolute;
+    width: 350px;
+    height: 63px;
+    left: 60px;
+    top: 600px;
+    background: #37B7FF;
+    box-shadow: -5px 6px 4px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.checkoutButton {
+    position: absolute;
+    width: 350px;
+    height: 63px;
+    left: 800px;
+    top: 600px;
+    background: #0078BC;
+    box-shadow: -5px 6px 4px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+input[type=checkbox]{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 39px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.item1 {
+    position: absolute;
+    width: 1005px;
+    height: 60px;
+    left: 82.5px;
+    top: 88px;
+    background: #FFFFFF;
+}
+
+.item2 {
+    position: absolute;
+    width: 1005px;
+    height: 60px;
+    left: 82.5px;
+    top: 167px;
+    background: #FFFFFF;
+}
+
+.item3 {
+    position: absolute;
+    width: 1005px;
+    height: 60px;
+    left: 82.5px;
+    top: 245px;
+    background: #FFFFFF;
+}
+
+.item4 {
+    position: absolute;
+    width: 1005px;
+    height: 60px;
+    left: 82.5px;
+    top: 325px;
+    background: #FFFFFF;
+}
+
+.item5 {
+    position: absolute;
+    width: 1005px;
+    height: 60px;
+    left: 82.5px;
+    top: 404px;
+    background: #FFFFFF;
+}
+
+p4 {
+    position: absolute;
+    height: 16px;
+    top: 210px;
+    left: 200px;
+    font-family: Consolas, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: #FF0000;
+    align-self: center;
+}

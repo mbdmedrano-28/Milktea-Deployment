@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/basetemplate.css' %}">
+
+    <title>Pengu - {{ title }}</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navibar"></div>
+
+        <div class="pengu_logo">
+            <a href="/user/home">
+                <img src="{% static 'loginsignup/media/pengu_logo.png' %}" alt="Pengu Logo" width="76" height="76">
+            </a>
+        </div>
+
+        <div>
+            <a href="/user/home">
+                <button class="home">Home</button>
+            </a>
+            <a href="/user/menu">
+                <button class="menu">Menu</button>
+            </a>
+            <a href="/user/myCart">
+                <button class="myCart">My Cart</button>
+            </a>
+            <a href="/user/myOrder">
+                <button class="myOrder">My Orders</button>
+            </a>
+            <a href="/user/myAccount">
+                <button class="myAccount">{{ user.first_name }}</button>
+            </a>
+            <a href="/user/signout">
+                <button class="signOut">Sign Out</button>
+            </a>
+        </div>
+
+        <p1>|</p1>
+
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

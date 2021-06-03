@@ -1,0 +1,42 @@
+{% extends "pages/base_template.html" %}
+{% block content %}
+    {%  load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/informationpage.css'%}">
+
+    <div class="p_logo">
+        <img src="{% static 'loginsignup/media/pengu_logo.png' %}" width="84" height="78">
+    </div>
+    <p class="info_header">INFORMATION FILL-UP</p>
+    <div class="inverted_logo">
+        <img src="{% static 'loginsignup/media/pengu_logo.png' %}" width="84" height="78">
+    </div>
+
+    <form action="/user/checkout/" method="post">
+        {% csrf_token %}
+            <div class="board">
+                <input type="text" id="nameInput" name="nameInput" placeholder="Full Name" value="{{ user.first_name }} {{ user.last_name }}">
+                <input type="text" id="numberInput" name="numberInput" placeholder="Contact Number" value="{{ user.mobile_no }}">
+                <input type="email" id="emailInput" name="emailInput" placeholder="Email Address" value="{{ user.email }}">
+                <input type="text" id="addressInput" name="addressInput" placeholder="Address for Delivery" value="{{ user.home_add }}">
+                <p class="mode">Mode of Delivery and Payment:</p>
+                <p class="delivery">For DELIVERY</p>
+                <p class="pickup">For PICKUP</p>
+
+                {% for order in orders %}
+                    {% for element in order %}
+                        <input hidden type="text" name="element{{ forloop.parentloop.counter }}{{ forloop.counter }}" id="element{{ forloop.parentloop.counter }}{{ forloop.counter }}" value="{{ element }}">
+                    {% endfor %}
+                {% endfor %}
+                <input type="radio" id="forDelivery" name="mode" value="delivery">
+                <input type="radio" id="forPickup" name="mode" value="pickup">
+            </div>
+            <input type="submit" class="submitButton" value="SUBMIT">
+    </form>
+
+
+
+    <a href="/user/myCart">
+        <button class="cancelButton">CANCEL</button>
+    </a>
+    s
+{% endblock content%}

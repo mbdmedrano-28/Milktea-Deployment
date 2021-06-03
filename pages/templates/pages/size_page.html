@@ -1,0 +1,46 @@
+{% extends "pages/base_template.html" %}
+{% block content %}
+    {%  load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/sizepage.css'%}">
+
+    <div class="board">
+        <p class="choose">CHOOSE THE SIZE</p>
+        <div class="medium">
+            <img src="{% static 'pages/media/blue_icon.png' %}" width="273" height="248">
+        </div>
+        <div class="large">
+            <img src="{% static 'pages/media/blue_icon.png' %}" width="312" height="283">
+        </div>
+        <div class="medium_logo">
+            <img src="{% static 'loginsignup/media/pengu_logo.png' %}" width="104" height="104">
+        </div>
+        <div class="large_logo">
+            <img src="{% static 'loginsignup/media/pengu_logo.png' %}" width="136" height="136">
+        </div>
+
+        <form action="/user/menu/sizes/" method="post">
+            {% csrf_token %}
+                <div class="mediumButton">
+                    <p class="mediumText">MEDIUM</p>
+                    <p class="mediumPrice">PHP {{ price_medium }}</p>
+                    <input hidden type="number" id="mediumPrice" name="mediumPrice" value="{{ price_medium }}">
+                    <input type="radio" id="mediumSelect" name="size" value="Medium">
+                </div>
+                <div class="largeButton">
+                    <p class="largeText">LARGE</p>
+                    <p class="largePrice">PHP {{ price_large }}</p>
+                    <input hidden type="number" id="largePrice" name="largePrice" value="{{ price_large }}">
+                    <input type="radio" id="largeSelect" name="size" value="Large">
+                </div>
+
+                <input hidden type="text"  name="drink_name" id="drink_name" value="{{ item_name }}">
+                <input type="number" min="1" name="quantity" placeholder="Type the Quantity">
+                <input type="submit" value="ADD TO CART">
+        </form>
+
+        <a href="/user/menu">
+            <button class="backButton">< BACK</button>
+        </a>
+    </div>
+
+{% endblock content%}

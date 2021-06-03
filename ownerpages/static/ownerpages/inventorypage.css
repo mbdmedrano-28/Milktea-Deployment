@@ -1,0 +1,245 @@
+.line {
+    position: absolute;
+    width: 633px;
+    height: 0;
+    left: 164px;
+    top: 518px;
+    opacity: 0.4;
+    border: 3px solid #00A3FF;
+    transform: rotate(-90deg);
+}
+
+.board {
+    position: absolute;
+    width: 852px;
+    height: 1897px;
+    left: 557px;
+    top: 81px;
+    background: #FFFFFF;
+    box-shadow: -5px 11px 4px #8CD3F7, inset 11px -11px 3px -1px #C8EAFB;
+    border-radius: 85px;
+}
+
+.slot1 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 44px;
+    background: #FFFFFF;
+}
+
+.slot2 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 214px;
+    background: #FFFFFF;
+}
+
+.slot3 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 384px;
+    background: #FFFFFF;
+}
+
+.slot4 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 554px;
+    background: #FFFFFF;
+}
+
+.slot5 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 724px;
+    background: #FFFFFF;
+}
+
+.slot6 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 894px;
+    background: #FFFFFF;
+}
+
+.slot7 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 1064px;
+    background: #FFFFFF;
+}
+
+.slot8 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 1234px;
+    background: #FFFFFF;
+}
+
+.slot9 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 1404px;
+    background: #FFFFFF;
+}
+
+.slot10 {
+    position: absolute;
+    width: 763px;
+    height: 162px;
+    left: 36px;
+    top: 1574px;
+    background: #FFFFFF;
+}
+
+.name {
+    position: absolute;
+    width: 64px;
+    height: 26px;
+    left: 36px;
+    top: 36px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: right;
+    color: #363636;
+}
+
+input[type=text], #nameType {
+    position: absolute;
+    height: 54px;
+    width: 512px;
+    left: 117px;
+    top: 22px;
+    background: #FFFFFF;
+    border: 3px solid #0078BC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.quantity {
+    position: absolute;
+    width: 87px;
+    height: 26px;
+    left: 13px;
+    top: 107px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: right;
+    color: #363636;
+}
+
+input[type=number]{
+    position: absolute;
+    width: 162px;
+    height: 52px;
+    left: 117px;
+    top: 90px;
+    background: #FFFFFF;
+    border: 3px solid #0078BC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.unit {
+    position: absolute;
+    width: 189px;
+    height: 26px;
+    left: 325px;
+    top: 104px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: right;
+    color: #363636;
+}
+
+input[type=text], #unitType {
+    position: absolute;
+    height: 52px;
+    width: 162px;
+    left: 531px;
+    top: 90px;
+    background: #FFFFFF;
+    border: 3px solid #0078BC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.saveButton {
+    position: absolute;
+    width: 151px;
+    height: 52px;
+    left: 333px;
+    top: 1794px;
+    background: #8CD3F7;
+    box-shadow: -5px 6px 4px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.endLine {
+    position: absolute;
+    width: 633px;
+    height: 0px;
+    left: 667px;
+    top: 2097px;
+    opacity: 0.4;
+    border: 3px solid #00A3FF;
+    transform: rotate(-180deg);
+}

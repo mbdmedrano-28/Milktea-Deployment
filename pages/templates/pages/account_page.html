@@ -1,0 +1,17 @@
+{% extends "pages/base_template.html" %}
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/accountpage.css' %}">
+    <div class="board"></div>
+    <a href="/user/myAccount/settings">
+        <button class="editButton">Edit Profile</button>
+    </a>
+    <p class="userName">{{ user.username }}</p>
+    <p class="wholeName">{{ user.first_name }} {{ user.last_name }}</p>
+    <p class="email">Email Address:</p>
+    <p class="emailValue">{{ user.email }}</p>
+    <p class="number">Mobile Number:</p>
+    <p class="numberValue">{{ user.mobile_no }}</p>
+    <p class="address">Home Address:</p>
+    <p class="addressValue">{{ user.home_add }}</p>
+{% endblock content%}

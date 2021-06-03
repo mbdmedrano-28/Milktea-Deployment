@@ -1,0 +1,43 @@
+{% extends "pages/base_template.html" %}
+{% block content %}
+    {%  load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/menupage.css' %}">
+
+    <div class="pengu_icon1" id="pengu_icon1">
+        <img src="{% static 'loginsignup/media/pengu_logo.png' %}" alt="Icon" width="84" height="78">
+    </div>
+    <div class="pengu_icon2" id="pengu_icon2">
+        <img src="{% static 'loginsignup/media/pengu_logo.png' %}" alt="Icon" width="84" height="78">
+    </div>
+    <p3 id="pengu_black">PENGU MENU</p3>
+    <p2 id="pengu_white">PENGU MENU</p2>
+
+    <div class="menu_container" id="menu_container">
+        {% for drink in drinks %}
+            <div class="{{drink.bgcolor}}" >
+                <div class="drink_img">
+                    <img src="{{ drink.image.url }}" alt="Icon" width="150" height="150">
+                </div>
+                <div class="drink_name">{{ drink.name }}</div>
+                <div class="drink_subname">{{ drink.subname }}</div>
+                <div class="drink_price">{{ drink.price_medium }} - Medium   |   {{ drink.price_large }} - Large</div>
+                {% if drink.offer %}
+                    <form onclick="menu" method="post">
+                        {% csrf_token %}
+                            <input hidden type="text" name="name" id="name" value="{{ drink.name  }} {{ drink.subname }}">
+                            <input hidden type="number" name="medium" id="medium" value="{{ drink.price_medium }}">
+                            <input hidden type="number" name="large" id="large" value="{{ drink.price_large }}">
+                            <input type="submit" class="{{ drink.classname }}" value="ADD TO CART">
+                    </form>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="errorMessage">
+        {% for message in messages %}
+            <p8> {{ message }} </p8>
+        {% endfor %}
+    </div>
+
+{% endblock content%}

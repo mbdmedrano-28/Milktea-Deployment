@@ -1,0 +1,30 @@
+{% extends "ownerpages/admin_template.html" %}
+{% block content %}
+    {%  load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'ownerpages/inventorypage.css'%}">
+
+    <div class="line"></div>
+    <div class="board">
+        <form onclick="inventory" method="post">
+            {% csrf_token %}
+                {% for slot in slots %}
+                    <div class="{{ slot.slot_ind }}">
+                        <p class="name">Name:</p>
+                        <input type="text" name="{{ slot.nameType }}" value="{{ slot.name_unique }}" id="nameType">
+                        <p class="quantity">Quantity:</p>
+                        <input type="number" min="0" max="1000" name="{{ slot.quanType }}" value="{{ slot.quantity_unique }}">
+                        <p class="unit">Unit/Measurement:</p>
+                        <input type="text" name="{{ slot.unitType }}" value="{{ slot.unit_unique }}" id="unitType">
+                    </div>
+                {% endfor %}
+                <button class="saveButton">Save</button>
+        </form>
+        <div class="errorMessage">
+            {% for message in messages %}
+                <p4> {{ message }} </p4>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="endLine"></div>
+{% endblock content%}

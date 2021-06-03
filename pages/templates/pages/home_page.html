@@ -1,0 +1,42 @@
+{% extends "pages/base_template.html" %}
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/homepage.css' %}">
+    <div class="home_cover">
+        <img src="{% static 'pages/media/home_cover.jpg' %}" alt="Home Cover" width="1440" height="655">
+    </div>
+    <div class="line"></div>
+    <p2>Pengu Milktea © 2021</p2>
+    <p4>"filled with love in every cup"</p4>
+    <p3>“filled with love in every cup”</p3>
+    <div class="transparentBox"></div>
+    <p5>Craving for pengu?</p5>
+    <div class="leftBox"></div>
+    <div class="midBox"></div>
+    <div class="rightBox"></div>
+    <div class="logo_icon1">
+        <img src="{% static 'pages/media/white_icon.png' %}" alt="Icon" width="85" height="85">
+    </div>
+    <div class="logo_icon2">
+        <img src="{% static 'pages/media/white_icon.png' %}" alt="Icon" width="75" height="75">
+    </div>
+    <p6>MORE THAN 10 FLAVORS TO CHOOSE FROM!</p6>
+    <div class="wifi_icon">
+        <img src="{% static 'pages/media/wifi_icon.png' %}" alt="Icon" width="95" height="95">
+    </div>
+    <p7>order online!</p7>
+    <div class="cart_icon">
+        <img src="{% static 'pages/media/cart_icon.png' %}" alt="Icon" width="95" height="75.83">
+    </div>
+    <p8>CHECK THE STATUS OF YOUR ORDERS!</p8>
+    <a href="/user/menu">
+        <button class="leftButton">SEE THE MENU ></button>
+    </a>
+    <a href="/user/menu">
+        <button class="midButton">ORDER NOW ></button>
+    </a>
+    <a href="/user/myOrder">
+        <button class="rightButton">CHECK ORDERS ></button>
+    </a>
+
+{% endblock content%}

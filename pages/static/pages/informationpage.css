@@ -1,0 +1,225 @@
+.p_logo {
+    position: absolute;
+    left: 200px;
+    top: 112px;
+    filter: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.info_header {
+    position: absolute;
+    width: 906px;
+    height: 76px;
+    left: 267px;
+    top: 114px;
+    font-family: a Big Deal, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 69px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #5FD9F4;
+}
+
+.inverted_logo {
+    position: absolute;
+    width: 84px;
+    height: 78px;
+    left: 1153px;
+    top: 112px;
+    filter: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.board {
+    position: absolute;
+    width: 1188px;
+    height: 543px;
+    left: 126px;
+    top: 233px;
+    background: #FFFFFF;
+    box-shadow: -5px 11px 4px #8CD3F7, inset 11px -11px 3px -1px #C8EAFB;
+    border-radius: 85px;
+}
+
+input[type=text], #nameInput {
+    position: absolute;
+    width: 988px;
+    height: 54px;
+    left: 100px;
+    top: 49px;
+    background: #FFFFFF;
+    border: 3px solid #0078BC;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+input[type=text], #numberInput {
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: 100px;
+    top: 118px;
+    background: #FFFFFF;
+    border: 3px solid #0078BC;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+input[type=text], #emailInput {
+    position: absolute;
+    width: 667px;
+    height: 54px;
+    left: 421px;
+    top: 118px;
+    background: #FFFFFF;
+    border: 3px solid #0078BC;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+input[type=text], #addressInput {
+    position: absolute;
+    width: 988px;
+    height: 54px;
+    left: 100px;
+    top: 196px;
+    background: #FFFFFF;
+    border: 3px solid #0078BC;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.mode {
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    left: 415px;
+    top: 298px;
+    font-family: Inria Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.delivery {
+    position: absolute;
+    width: 147px;
+    height: 29px;
+    left: 403px;
+    top: 370px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    color: #010101;
+}
+
+.pickup {
+    position: absolute;
+    width: 120px;
+    height: 29px;
+    left: 717px;
+    top: 370px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    color: #010101;
+}
+
+input[type=checkbox], #forDelivery {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 350px;
+    top: 368px;
+}
+
+input[type=checkbox], #forPickup {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 664px;
+    top: 368px;
+}
+
+.cancelButton {
+    position: absolute;
+    width: 350px;
+    height: 63px;
+    left: 305px;
+    top: 806px;
+    background: #37B7FF;
+    box-shadow: -5px 6px 4px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.submitButton {
+    position: absolute;
+    width: 350px;
+    height: 63px;
+    left: 785px;
+    top: 806px;
+    background: #0078BC;
+    box-shadow: -5px 6px 4px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #BEBEBE;
+}

@@ -1,0 +1,292 @@
+.line{
+    position: absolute;
+    width: 1254px;
+    height: 0px;
+    left: 93px;
+    top: 983px;
+    opacity: 0.4;
+    border: 1px solid #000000;
+}
+
+p2{
+    position: absolute;
+    width: 154px;
+    height: 16px;
+    left: 643px;
+    top: 995px;
+    font-family: Consolas, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+p3{
+    position: absolute;
+    width: 1110px;
+    height: 88px;
+    left: 166px;
+    top: 518px;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 50;
+}
+
+p4{
+    position: absolute;
+    width: 1110px;
+    height: 88px;
+    left: 164px;
+    top: 524px;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    z-index: 50;
+}
+
+.transparentBox{
+    position: absolute;
+    width: 1440px;
+    height: 111px;
+    left: 0px;
+    top: 508px;
+    background: #E3CDC6;
+    opacity: 0.85;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home_cover{
+    object-fit: none;
+    position: static;
+    left: -250px;
+    top: -36px;
+    z-index: -50;
+}
+
+p5{
+    position: absolute;
+    width: 469px;
+    height: 54px;
+    left: 580px;
+    top: 627px;
+    font-family: Carter One, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #033856;
+}
+
+.leftBox{
+    position: absolute;
+    width: 480px;
+    height: 268px;
+    left: 0px;
+    top: 676px;
+    background: #0078BC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.midBox{
+    position: absolute;
+    width: 480px;
+    height: 268px;
+    left: 480px;
+    top: 676px;
+    background: #00A3FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rightBox{
+    position: absolute;
+    width: 480px;
+    height: 268px;
+    left: 960px;
+    top: 676px;
+    background: #82BFE1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo_icon1{
+    position: absolute;
+    left: 174px;
+    top: 691px;
+}
+
+.logo_icon2{
+    position: absolute;
+    left: 230px;
+    top: 701px;
+}
+
+p6{
+    position: absolute;
+    width: 392px;
+    height: 43px;
+    left: 42px;
+    top: 801px;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wifi_icon{
+    position: absolute;
+    left: 658px;
+    top: 686px;
+}
+
+p7{
+    position: absolute;
+    width: 319px;
+    height: 58px;
+    left: 560px;
+    top: 794px;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cart_icon{
+    position: absolute;
+    left: 1138px;
+    top: 700px;
+}
+
+
+p8{
+    position: absolute;
+    width: 309px;
+    height: 48px;
+    left: 1038px;
+    top: 804px;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.leftButton{
+    position: absolute;
+    width: 181px;
+    height: 39px;
+    left: 151px;
+    top: 877px;
+    background: #0078BC;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.midButton{
+    position: absolute;
+    width: 181px;
+    height: 39px;
+    left: 627px;
+    top: 877px;
+    background: #00A3FF;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.rightButton{
+    position: absolute;
+    width: 181px;
+    height: 39px;
+    left: 1107px;
+    top: 877px;
+    background: #82BFE1;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.about{
+    font-family: Arimo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background-color: inherit;
+    position: absolute;
+    left: 696px;
+    top: 952px;
+}

@@ -1,0 +1,192 @@
+.line {
+    position: absolute;
+    width: 633px;
+    height: 0;
+    left: 150px;
+    top: 518px;
+    opacity: 0.4;
+    border: 3px solid #00A3FF;
+    transform: rotate(-90deg);
+}
+
+.board {
+    position: absolute;
+    width: 852px;
+    height: 1369px;
+    left: 529px;
+    top: 66px;
+    background: #FFFFFF;
+    box-shadow: -5px 11px 4px #8CD3F7, inset 11px -11px 3px -1px #C8EAFB;
+    border-radius: 85px;
+}
+
+.dates {
+    position: absolute;
+    width: 72px;
+    height: 26px;
+    left: 191px;
+    top: 59px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.totalSales {
+    position: absolute;
+    width: 142px;
+    height: 26px;
+    left: 535px;
+    top: 59px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.headerLine {
+    position: absolute;
+    width: 700px;
+    height: 0;
+    left: 83px;
+    top: 107px;
+    mix-blend-mode: normal;
+    border: 3px solid #0078BC;
+}
+
+.separator {
+    position: absolute;
+    width: 1055px;
+    height: 0;
+    left: 446px;
+    top: 734px;
+    opacity: 0.4;
+    border: 3px solid #00A3FF;
+    transform: rotate(90deg);
+}
+
+.date1 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 124px;
+    background: #FFFFFF;
+}
+
+.date2 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 234px;
+    background: #FFFFFF;
+}
+
+.date3 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 344px;
+    background: #FFFFFF;
+}
+
+.date4 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 454px;
+    background: #FFFFFF;
+}
+
+.date5 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 564px;
+    background: #FFFFFF;
+}
+
+.date6 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 674px;
+    background: #FFFFFF;
+}
+
+.date7 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 784px;
+    background: #FFFFFF;
+}
+
+.date8 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 894px;
+    background: #FFFFFF;
+}
+
+.date9 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 1004px;
+    background: #FFFFFF;
+}
+
+.date10 {
+    position: absolute;
+    width: 619px;
+    height: 95px;
+    left: 103px;
+    top: 1114px;
+    background: #FFFFFF;
+}
+
+.dateValue {
+    position: absolute;
+    width: 129px;
+    height: 28px;
+    left: 59px;
+    top: 35px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #0078BC;
+}
+
+.salesValue {
+    position: absolute;
+    width: 82px;
+    height: 28px;
+    left: 461px;
+    top: 35px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}

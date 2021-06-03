@@ -1,0 +1,270 @@
+.logo {
+    position: absolute;
+    left: 396px;
+    top: 113px;
+    filter: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.inverted_logo {
+    position: absolute;
+    left: 950px;
+    top: 113px;
+    filter: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.list {
+    position: absolute;
+    width: 816px;
+    height: 86px;
+    left: 312px;
+    top: 109px;
+    font-family: a Big Deal, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 69px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #5FD9F4;
+}
+
+.board {
+    position: absolute;
+    width: 1188px;
+    height: 543px;
+    left: 126px;
+    top: 233px;
+    background: #FFFFFF;
+    box-shadow: -5px 11px 4px #8CD3F7, inset 11px -11px 3px -1px #C8EAFB;
+    border-radius: 85px;
+}
+
+.quantity {
+    position: absolute;
+    width: 86px;
+    height: 21px;
+    left: 123px;
+    top: 49px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.flavor {
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 351px;
+    top: 49px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.size {
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    left: 645px;
+    top: 49px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price {
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 830px;
+    top: 49px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.status {
+    position: absolute;
+    width: 65px;
+    height: 21px;
+    left: 986px;
+    top: 49px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line {
+    position: absolute;
+    width: 998px;
+    height: 0;
+    left: 99px;
+    top: 81px;
+    mix-blend-mode: normal;
+    border: 3px solid #0078BC;
+}
+
+
+.quantityValue {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 26px;
+    top: 17px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.flavorValue {
+    position: absolute;
+    width: 297px;
+    height: 26px;
+    left: 112px;
+    top: 17px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.sizeValue {
+    position: absolute;
+    width: 81px;
+    height: 26px;
+    left: 497px;
+    top: 17px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.priceValue {
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    left: 667px;
+    top: 17px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.statusValue {
+    position: absolute;
+    width: 129px;
+    height: 26px;
+    left: 825px;
+    top: 17px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0078BC;
+}
+
+.backButton {
+    position: absolute;
+    width: 350px;
+    height: 63px;
+    left: 126px;
+    top: 930px;
+    background: #37B7FF;
+    box-shadow: -5px 6px 4px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: MC Merchant, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.order1 {
+    position: absolute;
+    width: 970px;
+    height: 67px;
+    left: 127px;
+    top: 105px;
+    background: #FFFFFF;
+}
+
+.order2 {
+    position: absolute;
+    width: 1005px;
+    height: 74px;
+    left: 127px;
+    top: 174px;
+    background: #FFFFFF;
+}
+
+.order3 {
+    position: absolute;
+    width: 1005px;
+    height: 74px;
+    left: 127px;
+    top: 243px;
+    background: #FFFFFF;
+}
+
+.order4 {
+    position: absolute;
+    width: 1005px;
+    height: 74px;
+    left: 127px;
+    top: 312px;
+    background: #FFFFFF;
+}
+
+.order5 {
+    position: absolute;
+    width: 1005px;
+    height: 74px;
+    left: 127px;
+    top: 381px;
+    background: #FFFFFF;
+}

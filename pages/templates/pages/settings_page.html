@@ -1,0 +1,58 @@
+{% extends "pages/base_template.html" %}
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/settingspage.css' %}">
+    <div class="board">
+        <a href="/user/myAccount">
+            <button class="cancelButton">Cancel</button>
+        </a>
+
+        <p class="currentFN">Current First Name:</p>
+        <p class="fnValue">{{ user.first_name }}</p>
+        <p class="newFN">New First Name:</p>
+
+        <p class="currentLN">Current Last Name:</p>
+        <p class="lnValue">{{ user.last_name }}</p>
+        <p class="newLN">New Last Name:</p>
+
+        <p class="currentUN">Current Username:</p>
+        <p class="unValue">{{ user.username }}</p>
+        <p class="newUN">New Username:</p>
+
+        <p class="currentP">Enter Current Password:</p>
+        <p class="newP">New Password:</p>
+        <p class="confirmP">Confirm New Password:</p>
+
+        <p class="currentEmail">Current Email Address:</p>
+        <p class="eValue">{{ user.email }}</p>
+        <p class="newEmail">New Email Address:</p>
+
+        <p class="currentNumber">Current Mobile Number:</p>
+        <p class="numValue">{{ user.mobile_no }}</p>
+        <p class="newNumber">New Mobile Number:</p>
+
+        <p class="currentAddress">Current Home Address:</p>
+        <p class="addValue">{{ user.home_add }}</p>
+        <p class="newAddress">New Home Address:</p>
+
+        <form onclick="myAccount/settings" method="post">
+            {% csrf_token %}
+                <input type="text" id="fnType" name="fnType">
+                <input type="text" id="lnType" name="lnType">
+                <input type="text" id="unType" name="unType">
+                <input type="password" id="pValue" name="pValue">
+                <input type="password" id="pType" name="pType">
+                <input type="password" id="confirmPType" name="confirmPType">
+                <input type="email" id="emailType" name="emailType">
+                <input type="text" id="numType" name="numType">
+                <input type="text" id="addType" name="addType">
+                <input type="submit" value="Done Editing">
+        </form>
+        <div class="errorMessage">
+            {% for message in messages %}
+                <p4> {{ message }} </p4>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock content%}

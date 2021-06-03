@@ -1,0 +1,1 @@
+web: gunicorn Pengu_Milktea.wsgi

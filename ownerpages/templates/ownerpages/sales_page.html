@@ -1,0 +1,23 @@
+{% extends "ownerpages/admin_template.html" %}
+{% block content %}
+    {%  load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'ownerpages/salespage.css'%}">
+
+    <div class="line"></div>
+    <div class="board">
+        <p class="dates">DATES:</p>
+        <p class="totalSales">TOTAL SALES:</p>
+        <div class="headerLine"></div>
+
+        {% for sale in sales %}
+            <div class="date{{ forloop.counter }}">
+                <p class="dateValue">{{ sale.today_date }}</p>
+                <p class="salesValue">{{ sale.today_sale }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="separator"></div>
+
+{% endblock content%}

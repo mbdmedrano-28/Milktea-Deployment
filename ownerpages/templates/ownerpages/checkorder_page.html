@@ -1,0 +1,43 @@
+{% extends "ownerpages/admin_template.html" %}
+{% block content %}
+    {%  load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'ownerpages/checkorder.css'%}">
+
+    <div class="line"></div>
+    <div class="mainB">
+        <p class="quantity">QUANTITY</p>
+        <p class="name">NAME</p>
+        <p class="flavor">FLAVOR</p>
+        <p class="address">ADDRESS</p>
+        <p class="size">SIZE</p>
+        <p class="price">MODE</p>
+        <p class="status">STATUS</p>
+        <div class="headerLine"></div>
+
+        {% for order in orders %}
+            <form onclick="orders" method="post">
+                {% csrf_token %}
+                <div class="order{{ forloop.counter }}">
+                    <p class="quantityValue">{{ order.quantity }}</p>
+                    <p class="flavorValue">{{ order.flavor }}</p>
+                    <p class="sizeValue">{{ order.size }}</p>
+                    <p class="modeValue">{{ order.mode }}</p>
+                    <p class="nameValue">{{ order.name }}</p>
+                    <p class="addressValue">{{ order.address }}</p>
+
+                    <input type="text" placeholder='STATUS' name="statusValue{{ forloop.counter }}" value="{{ order.status }}">
+                    <input type="submit" class="saveButton" name="save{{ forloop.counter }}" value="SAVE">
+                    <input type="submit" class="completedButton" name="completed{{ forloop.counter }}" value="COMPLETE">
+                </div>
+            </form>
+        {% endfor %}
+    </div>
+
+    <div class="errorMessage">
+        {% for message in messages %}
+            <p4> {{ message }} </p4>
+        {% endfor %}
+    </div>
+
+{% endblock content%}

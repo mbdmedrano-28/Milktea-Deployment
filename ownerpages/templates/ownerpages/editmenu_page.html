@@ -1,0 +1,27 @@
+{% extends "ownerpages/admin_template.html" %}
+{% block content %}
+    {%  load static %}
+    {% static "owner/media/menu" as baseUrl %}
+    <link rel="stylesheet" type="text/css" href="{% static 'ownerpages/editmenupage.css'%}">
+
+    <div class="line"></div>
+    <div class="mainBoard">
+        <form onclick="menu" method="post">
+            {% csrf_token %}
+                {% for drink in drinks %}
+                    <div class="{{drink.bgcolor}}" >
+                        <div class="drink_img">
+                            <img src="{{ drink.image.url }}" alt="Icon" width="110" height="110">
+                        </div>
+                        <div class="drink_name">{{ drink.name }}</div>
+                        <div class="drink_subname">{{ drink.subname }}</div>
+                        <div class="drink_price">{{ drink.price_medium }} - Medium   |   {{ drink.price_large }} - Large</div>
+                        <input type="checkbox" id={{ drink.bgcolor }} name={{ drink.bgcolor }} {% if drink.offer %}checked {% endif %}>
+                    </div>
+                {% endfor %}
+                <input type="submit" value="Save">
+        </form>
+    </div>
+
+
+{% endblock content%}

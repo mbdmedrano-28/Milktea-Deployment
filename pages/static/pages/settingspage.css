@@ -1,0 +1,554 @@
+.board {
+    position: absolute;
+    width: 1191px;
+    height: 848px;
+    left: 115px;
+    top: 120px;
+    background: #FFFFFF;
+    box-shadow: -5px 11px 4px #8CD3F7, inset 11px -11px 3px -1px #C8EAFB;
+    border-radius: 85px;
+}
+
+.cancelButton {
+    position: absolute;
+    width: 140px;
+    height: 41px;
+    left: 807px;
+    top: 756px;
+    background: #FFFFFF;
+    border: 2px solid #0078BC;
+    box-sizing: border-box;
+    box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #0078BC;
+}
+
+input[type=submit] {
+    position: absolute;
+    width: 140px;
+    height: 41px;
+    left: 973px;
+    top: 756px;
+    background: #0078BC;
+    border: 2px solid #0078BC;
+    box-sizing: border-box;
+    box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.currentFN {
+    position: absolute;
+    height: 21px;
+    left: 107px;
+    top: 59px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+input[type=text], #fnType {
+    position: absolute;
+    width: 557px;
+    height: 32px;
+    left: 280px;
+    top: 92px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.fnValue {
+    position: absolute;
+    height: 23px;
+    left: 280px;
+    top: 59px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.newFN {
+    position: absolute;
+    height: 21px;
+    left: 127px;
+    top: 94px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+.currentLN {
+    position: absolute;
+    height: 21px;
+    left: 108px;
+    top: 153px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+.lnValue {
+    position: absolute;
+    height: 23px;
+    left: 280px;
+    top: 153px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.newLN {
+    position: absolute;
+    height: 21px;
+    left: 128px;
+    top: 188px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+input[type=text], #lnType {
+    position: absolute;
+    height: 32px;
+    left: 280px;
+    top: 186px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.currentUN {
+    position: absolute;
+    height: 21px;
+    left: 108px;
+    top: 247px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+.unValue {
+    position: absolute;
+    height: 23px;
+    left: 275px;
+    top: 247px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.newUN {
+    position: absolute;
+    height: 21px;
+    left: 128px;
+    top: 282px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+input[tpye=text], #unType {
+    position: absolute;
+    height: 32px;
+    left: 275px;
+    top: 280px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.currentP {
+    position: absolute;
+    height: 21px;
+    left: 63px;
+    top: 341px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+
+.newP {
+    position: absolute;
+    height: 21px;
+    left: 131px;
+    top: 383px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+input[tpye=password], #pValue{
+    position: absolute;
+    height: 32px;
+    left: 274px;
+    top: 333px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input[type=password], #pType {
+    position: absolute;
+    height: 32px;
+    left: 274px;
+    top: 376px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.confirmP {
+    position: absolute;
+    height: 21px;
+    left: 577px;
+    top: 383px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+input[type=password], #confirmPType {
+    position: absolute;
+    height: 32px;
+    left: 790px;
+    top: 376px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.currentEmail {
+    position: absolute;
+    height: 21px;
+    left: 107px;
+    top: 435px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+.eValue {
+    position: absolute;
+    height: 23px;
+    left: 307px;
+    top: 435px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.newEmail {
+    position: absolute;
+    height: 21px;
+    left: 127px;
+    top: 470px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+input[type=email], #emailType {
+    position: absolute;
+    height: 32px;
+    left: 307px;
+    top: 468px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.currentNumber {
+    position: absolute;
+    height: 21px;
+    left: 93px;
+    top: 538px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+.numValue {
+    position: absolute;
+    height: 23px;
+    left: 307px;
+    top: 537px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.newNumber {
+    position: absolute;
+    height: 21px;
+    left: 117px;
+    top: 576px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+input[type=text], #numType {
+    position: absolute;
+    height: 32px;
+    left: 305px;
+    top: 574px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.currentAddress {
+    position: absolute;
+    height: 21px;
+    left: 93px;
+    top: 645px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+.addValue {
+    position: absolute;
+    height: 23px;
+    left: 315px;
+    top: 643px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.newAddress {
+    position: absolute;
+    height: 21px;
+    left: 117px;
+    top: 683px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+    color: #363636;
+}
+
+input[type=text], #addType {
+    position: absolute;
+    height: 32px;
+    left: 301px;
+    top: 681px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+p4{
+    position: absolute;
+    height: 16px;
+    top: 765px;
+    left: 450px;
+    font-family: Consolas, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+    color: #FF0000;
+    align-self: center;
+}

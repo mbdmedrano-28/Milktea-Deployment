@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic Sans|Consolas|Arimo">
+    <link rel="stylesheet" type="text/css" href="{% static 'ownerlogin/adminlogin.css' %}">
+
+    <title>Admin - Log In</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="whiteBox">
+            <form onclick="" method="post">
+                {% csrf_token %}
+                    <input type="text" id="userName" name="userName" placeholder=" Admin Username">
+                    <input type="password" id="password" name="password" placeholder="Admin Password">
+                    <input type="submit" value="Proceed">
+            </form>
+
+            <div class="errorMessage">
+                {% for message in messages %}
+                    <p4> {{ message }} </p4>
+                {% endfor %}
+            </div>
+        </div>
+
+
+        <div class="logo_pengu">
+            <img src="{% static 'loginsignup/media/pengu_logo.png' %}" alt="Pengu Logo" width="837" height="837">
+        </div>
+
+        <a href="/">
+            <button class="customer">Customer</button>
+        </a>
+        <a href="/about">
+            <button class="about">About</button>
+        </a>
+
+         <div class="line"></div>
+
+        <credit>Pengu Milktea © 2021</credit>
+    </div>
+</body>
+</html>

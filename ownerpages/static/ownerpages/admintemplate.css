@@ -1,0 +1,147 @@
+:root{
+    --bg_color_one: #ffffff;
+    --bg_color_two: #D6F1FF;
+    --bg_color_three: #A9E0FF;
+}
+
+html, body {
+    height: 95%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg_color_two);
+}
+
+.wrapper{
+    position: relative;
+    background-color: var(--bg_color_two);
+    min-height: 1030px;
+    height: 1986px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+.navi {
+    position: absolute;
+    width: 371px;
+    height: 958px;
+    left: 32px;
+    top: 33px;
+    background-color: var(--bg_color_three);
+}
+
+.logo {
+    position: absolute;
+    width: 114px;
+    height: 120px;
+    left: 161px;
+    top: 49px;
+}
+
+.rec1 {
+    position: absolute;
+    width: 371px;
+    height: 76px;
+    left: 32px;
+    top: 187px;
+    background: #8CD3F7;
+}
+
+.set_menu {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 160px;
+    top: 211px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    background-color: #8CD3F7;
+    color: #000000;
+}
+
+.inventory {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    left: 172px;
+    top: 287px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    background-color: var(--bg_color_three);
+    color: #000000;
+}
+
+.rec2 {
+    position: absolute;
+    width: 371px;
+    height: 75px;
+    left: 32px;
+    top: 339px;
+    background: #8CD3F7;
+}
+
+.check_orders {
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    left: 140px;
+    top: 362px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    background-color: #8CD3F7;
+    color: #000000;
+}
+
+.sales {
+    position: absolute;
+    width: 54px;
+    height: 28px;
+    left: 185px;
+    top: 438px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    background-color: var(--bg_color_three);
+    color: #000000;
+}
+
+.logout {
+    position: absolute;
+    width: 333px;
+    height: 58px;
+    left: 51px;
+    top: 899px;
+    background: #8CD3F7;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    color: #000000;
+}

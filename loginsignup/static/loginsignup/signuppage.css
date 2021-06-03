@@ -1,0 +1,308 @@
+:root{
+    --background_color_one: #ffffff;
+    --background_color_two: #D1F5FA;
+}
+
+html, body {
+    height: 95%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background_color_two);
+}
+
+.wrapper{
+    position: relative;
+    background-color: var(--background_color_two);
+    min-height: 1030px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+.pengu_logo{
+    position: absolute;
+    left: 623px;
+    top: 64px;
+}
+
+.main_box{
+    position: absolute;
+    width: 830px;
+    height: 556px;
+    left: 305px;
+    top: 264px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#firstName{
+    position: absolute;
+    width: 357px;
+    height: 44px;
+    left: 48px;
+    top: 43px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    border-radius: 10px;
+}
+
+#lastName{
+    position: absolute;
+    width: 357px;
+    height: 44px;
+    left: 432px;
+    top: 43px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    border-radius: 10px;
+}
+
+#emailAdd{
+    position: absolute;
+    width: 357px;
+    height: 44px;
+    left: 48px;
+    top: 104px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    border-radius: 10px;
+}
+
+#mobileNo{
+    position: absolute;
+    width: 357px;
+    height: 44px;
+    left: 432px;
+    top: 104px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    border-radius: 10px;
+}
+
+#homeAdd{
+    position: absolute;
+    width: 741px;
+    height: 44px;
+    left: 48px;
+    top: 165px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#userName{
+    position: absolute;
+    width: 741px;
+    height: 44px;
+    left: 48px;
+    top: 226px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#password{
+    position: absolute;
+    width: 741px;
+    height: 44px;
+    left: 48px;
+    top: 287px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#confirmation{
+    position: absolute;
+    width: 741px;
+    height: 44px;
+    left: 48px;
+    top: 348px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+input[type="submit"]{
+    position: absolute;
+    width: 357px;
+    height: 51px;
+    left: 237px;
+    top: 456px;
+    background: #80EAFF;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Comic Sans MS, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.logIn{
+    font-family: Arimo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background-color: inherit;
+    position: absolute;
+    left: 572px;
+    top: 949px;
+}
+
+.signUp{
+    font-family: Arimo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background-color: inherit;
+    position: absolute;
+    left: 655px;
+    top: 949px;
+}
+
+.admin{
+    font-family: Arimo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background-color: inherit;
+    position: absolute;
+    left: 746px;
+    top: 949px;
+}
+
+.about{
+    font-family: Arimo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background-color: inherit;
+    position: absolute;
+    left: 823px;
+    top: 949px;
+}
+
+.line{
+    position: absolute;
+    width: 1254px;
+    height: 0px;
+    left: 93px;
+    top: 983px;
+    opacity: 0.4;
+    border: 1px solid #000000;
+}
+
+p3{
+    position: absolute;
+    width: 154px;
+    height: 16px;
+    left: 643px;
+    top: 995px;
+    font-family: Consolas, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+p4{
+    position: absolute;
+    height: 16px;
+    top: 400px;
+    left: 70px;
+    font-family: Consolas, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    color: #FF0000;
+    align-self: center;
+}

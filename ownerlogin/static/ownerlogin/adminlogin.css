@@ -1,0 +1,178 @@
+:root{
+    --background_color_one: #ffffff;
+    --background_color_two: #D1F5FA;
+}
+
+html, body {
+    height: 95%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background_color_two);
+}
+
+.wrapper{
+    position: relative;
+    background-color: var(--background_color_two);
+    min-height: 1030px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+.whiteBox {
+    position: absolute;
+    width: 497px;
+    height: 356px;
+    left: 787px;
+    top: 245px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#userName{
+    position: absolute;
+    width: 357px;
+    height: 58px;
+    left: 70px;
+    top: 69px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+input[type="submit"] {
+    position: absolute;
+    width: 357px;
+    height: 51px;
+    left: 70px;
+    top: 224px;
+    background: rgba(0, 163, 255, 0.78);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+::placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #BEBEBE;
+}
+
+input[type=password] {
+    position: absolute;
+    width: 357px;
+    height: 58px;
+    left: 70px;
+    top: 143px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.line {
+    position: absolute;
+    width: 1254px;
+    height: 0px;
+    left: 93px;
+    top: 983px;
+    opacity: 0.4;
+    border: 1px solid #000000;
+}
+
+.customer {
+    position: absolute;
+    width: 79px;
+    height: 21px;
+    left: 644px;
+    top: 948px;
+    font-family: Arimo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #272727;
+    border: none;
+    background-color: inherit;
+}
+
+credit {
+    position: absolute;
+    width: 154px;
+    height: 16px;
+    left: 643px;
+    top: 987px;
+    font-family: Consolas, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.about {
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    left: 734px;
+    top: 948px;
+    font-family: Arimo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background-color: inherit;
+}
+
+.logo_pengu {
+    position: absolute;
+    left: -26px;
+    top: 91px;
+}
+
+p4{
+    position: absolute;
+    height: 16px;
+    left: 70px;
+    top: 295px;
+    font-family: Consolas, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    color: #FF0000;
+    align-self: center;
+}
